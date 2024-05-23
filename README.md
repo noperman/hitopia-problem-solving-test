@@ -1,0 +1,12 @@
+### Kompleksitas fungsi Balanced Bracket
+- Cek input sesuai dengan string bracket buka tutup yang telah ditentukan
+- menentukan maping dari setiap bracket open dan close ke dalam variable (array)
+- looping input 
+- apabila item looping merupakan bracket open maka ditampung kedalam bracket temporary variable (array)
+- apabila item looping bukan merupakan bracket open maka masuk ke pengecekan variable bracket temporary
+- apabila bracket temporary kosong, maka langsung di return "NO"
+- apabila variable bracket temporary tidak kosong, maka masuk ke kondisi menyamakan item looping dengan variable maping ber-index variable bracket temporary (item terakhir)
+- apabila pengecekan sebelumnya tidak sama, maka langsung di return "NO"
+- apabilan pengecekan sebelumnya sama, maka variable bracket temporary akan dikurangi itemnya dari terakhir 
+- end looping input
+- apabila proses diatas berjalan, maka terakhir akan me-return "YES"
